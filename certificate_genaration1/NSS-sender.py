@@ -22,6 +22,7 @@ def shorten( text, _max ):
     else :
         return -1
 
+
 # Add name, institute and project to certificate
 def make_certi( ID, name, institute, project ):
     img = Image.open("D:\certificate_genaration\Certificate-sender\Template.jpg")
